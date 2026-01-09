@@ -14,7 +14,7 @@ class Batch {
 
 final List<Batch> sampleBatches = [
   Batch(
-    title: 'UPSC IAS Foundation 2024',
+    title: 'UPSC IAS Foundation 2026',
     duration: '12 Months',
     price: '₹25,000',
     description: 'Complete foundation course for UPSC CSE 2024 with Prelims + Mains coverage.',
