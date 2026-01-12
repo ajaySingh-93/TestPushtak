@@ -80,30 +80,30 @@ class _LoginScreenState extends State<LoginScreen> {
                       // Logo Section
                       Center(
                         child: Image.asset(
-                          'assets/images/testpustak_logo.png',
-                          height: 80,
+                          'assets/images/testpustak.jpg',
+                          height: 150,
                           errorBuilder: (context, error, stackTrace) {
                             return const Icon(Icons.school, size: 80, color: Colors.blue);
                           },
                         ),
                       ),
-                      const SizedBox(height: 16),
-                      const Text(
-                        'TestPustak',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 28,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.blue,
-                        ),
-                      ),
+                      // const SizedBox(height: 16),
+                      // const Text(
+                      //   'TestPustak',
+                      //   textAlign: TextAlign.center,
+                      //   style: TextStyle(
+                      //     fontSize: 28,
+                      //     fontWeight: FontWeight.bold,
+                      //     color: Colors.blue,
+                      //   ),
+                      // ),
                       const SizedBox(height: 8),
                       const Text(
                         'Login to continue your preparation',
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                          fontSize: 16,
-                          color: Colors.grey,
+                          fontSize: 20,
+                          color: Colors.lightBlue,
                         ),
                       ),
                       const SizedBox(height: 40),
